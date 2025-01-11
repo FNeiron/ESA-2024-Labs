@@ -1,25 +1,26 @@
-# Practical Work #2
-## Application using Spring Framework
+# Practical Work #3
+## RESTful web-service
 ### Team
 - 6133 | Головань Анна
-  - Docker, DB, контроллеры
+  - REST API
 - 6133 | Фазылов Руслан
-  - Репозитории, сервисы, модели, DTO
+  - XLST
 ### General task
-You are to develop an application using common Spring architecture and technologies. It should have three layers (data, logic, view) and provide means to work with a database.
+You are to develop an application with REST web-service interface. Application should provide access to data within a database.
 It is strongly recommended to use version control and source code management system (like GitHub).
 It is strongly recommended to use Maven to manage your project.
 You can choose any IDE, but IntelliJ IDEA is recommended.
 ### Task 1
-Choose any subject area and make a model with at least two entities with a few properties.
-Create a script to make a database for your model.
-Yes, you can use the same models and scripts you used before.
+Compare JAX-RS and SpringREST. Choose one of them for your application. Give some arguments for your choice.
 ### Task 2
-Develop data layer as Java Beans for the model and make them prepared for use with Hibernate.
-Create additional Hibernate classes and configuration files, as required.
+Choose one of your previous applications for further development.
+Develop a REST API for accessing your data.
 ### Task 3
-Implement business layer using Spring beans.
+Implement the API.
+It should allow usage of both XML and JSON.
 ### Task 4
-Implement view layer using Spring MVC.
+Develop an XSL transformation for your XML objects to make a browser able to show them as HTML pages (including object data and navigation to other entities and their lists).
 ### Task 5
+Add the XSLT to all XML responses.
+### Task 6
 Make everything work together…
