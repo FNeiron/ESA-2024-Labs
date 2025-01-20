@@ -1,10 +1,12 @@
 package com.example.book.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.view.xslt.XsltView;
 import org.springframework.web.servlet.view.xslt.XsltViewResolver;
 
+@Configuration
 public class WebConfig {
     @Bean
     public ViewResolver xsltViewResolver(){
